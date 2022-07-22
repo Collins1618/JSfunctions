@@ -25,12 +25,12 @@
 
 
 //Returning values
-const calcArea = function(radius){
-    return 3.14 * radius**2;
-};
+// const calcArea = function(radius){
+//     return 3.14 * radius**2;
+// };
 
-const area = calcArea(5);
-console.log(area);
+// const area = calcArea(5);
+// console.log(area);
 
 //Arrow functions
 //Your can remove the parantheses if there is only one parameter
@@ -40,21 +40,36 @@ console.log(area);
 
 //if there is only one return statement, you can remove the return
 //keyworld and the block curly braces likes so
-const round = radius => 3.14 * radius**2
+// const round = radius => 3.14 * radius**2
 
-const value = round(5);
-console.log(value);
+// const value = round(5);
+// console.log(value);
 
-const greet = () => 'hello, world';
-const greetings = greet();
-console.log(greetings);
+// const greet = () => 'hello, world';
+// const greetings = greet();
+// console.log(greetings);
 
-const bill = (products, tax) => {
-    let total = 0;
-    for(let i = 0; i < products.length; i++){
-        total += products[i] + products[i] * tax;
-    }
-    return total;
-}
+// const bill = (products, tax) => {
+//     let total = 0;
+//     for(let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;
+//     }
+//     return total;
+// }
 
-console.log(bill([10,15,30], 0.2));
+// console.log(bill([10,15,30], 0.2));
+
+const name = 'shaun';
+
+//functions
+const greet = () => 'hello';
+
+let resultOne = greet();
+console.log(resultOne)
+
+
+//methods
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
+
+
