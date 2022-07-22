@@ -13,14 +13,15 @@ function greet(){
 //function expression, we give the function a name because
 //its name is now the variable name or in this case the const name
 //function expressions are not hoistec
-const speak = function(name, time){
+//asign some default value to th function
+const speak = function(name = 'Luigi', time = 'night'){
     console.log(`Good ${time} ${name}`);
 };
 
 //calling/invoking the function
 // greet();
 // greet();
-speak("Mario", 'morning');
+speak();
 
 
 
