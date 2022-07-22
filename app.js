@@ -59,17 +59,35 @@
 
 // console.log(bill([10,15,30], 0.2));
 
-const name = 'shaun';
+//Methods and functions
 
-//functions
-const greet = () => 'hello';
+// const name = 'shaun';
 
-let resultOne = greet();
-console.log(resultOne)
+// //functions
+// const greet = () => 'hello';
 
-
-//methods
-let resultTwo = name.toUpperCase();
-console.log(resultTwo);
+// let resultOne = greet();
+// console.log(resultOne)
 
 
+// //methods
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+
+//callbacks and foreach
+// const myFunc = (callbackFunc) => {
+//     //do something
+//     let value = 50;
+//     callbackFunc(value);
+// };
+
+// myFunc(value => {
+//     //do something
+//     console.log(value);
+// });
+
+let people = ['mario','luigi','ryu','shaun','chun-li'];
+people.forEach((person, index) => {
+    console.log(index, person);
+})
